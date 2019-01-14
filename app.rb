@@ -33,7 +33,7 @@ class App < Sinatra::Base
           @value = "#{params[:number1].to_i-params[:number2].to_i}"
         when "multiply"
           @value = "#{params[:number1].to_i*params[:number2].to_i}"
-        when "substract"
+        when "divide"
           @value = "#{params[:number1].to_i / params[:number2].to_i}"
         end
     end
